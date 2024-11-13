@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.HirehubController.SignUp(WebApplication1.Models.UserModel)">
+            <summary>
+            User can register themselves as student/placement cell and make a account on hirehub by entering valid emailid and strong password
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.LogValidation(WebApplication1.Models.UserModel)">
+             <summary>
+            Students and placement cell members can login using the emailid and password they used during registering.
+             </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.StudentInfo(WebApplication1.Models.StudentModel)">
+            <summary>
+            Students can enter necessary information and build their profile.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.EmployeeInfo(WebApplication1.Models.EmployeeModel)">
+            <summary>
+            Placement cell members can enter necessary information and build their profile.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.PostOpportuniy(WebApplication1.Models.OppotunityModel,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Placement cell can post opportunities by filling out required company information.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.Application(WebApplication1.Models.Application)">
+            <summary>
+            Students can register themselves for their interested opportunity and be an applicant for that company.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.PostProcess(WebApplication1.Models.ProcessModel)">
+             <summary>
+            Placement cell can post process details for an opportunity.
+             </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.Send(System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.Reset(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.upcomingopps(System.String,System.Int32,System.String)">
+            <summary>
+            The opportunities which is announced but yet to start their hiring process is displayed in this particular section
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.ongoingopps(System.String,System.Int32,System.String)">
+            <summary>
+            The opportunities whose rounds are started are shown in ongoing opportunities section.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.allopportunity">
+            <summary>
+            This page contains all the opportunities whether new or old.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.opportunitydetail(System.Int32)">
+            <summary>
+            When an opportunity is opened, the users can view a detailed view of that particular opportunity.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.skills(System.Int32)">
+            <summary>
+            A list of required skills that a company wants can be viewed in the selected opportunity's detailed view.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.roles(System.Int32)">
+            <summary>
+            A list of open roles that a company wants to hire can be viewed in the selected opportunity's detailed view.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.rounds(System.Int32)">
+            <summary>
+            A list of each round that a company process consists of can be viewed in the selected opportunity's detailed view.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.ProcessDetails(System.Int32)">
+             <summary>
+            On opening the round details from opportunity details, one can view the full information of the process that is going to take place.
+             </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.ShortlistedStudents(System.Int32)">
+             <summary>
+            On opening the round details one can also viw the list of shortlisted students for that particular round.
+             </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.AppliedStudents(System.Int32)">
+             <summary>
+            On opening the opportunity details placement cell can also viw the list of applied students for that particular opportunity.
+             </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.HirehubController.StudentProfile(System.Int32)">
+             <summary>
+            Students can view their profile on this page.
+             </summary>
+        </member>
+    </members>
+</doc>
